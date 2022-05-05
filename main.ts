@@ -1,6 +1,7 @@
 blockytalky.onReceivedNumber(function (key, value) {
     if (key == "angle") {
         a = value
+        a = a * 3.1415 / 180
     } else {
         if (key == "recul") {
             b = value
